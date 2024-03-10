@@ -18,6 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Build settings
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme 
+  - jekyll-feed
+
 title: Energy saving project PYP6
 email: jan.k.bogdanski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -27,12 +33,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://janbgd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  janbgd
-
-# Build settings
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme 
-  - jekyll-feed
+show_downloads: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
